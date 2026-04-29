@@ -10,14 +10,14 @@ public class VolumeOfCylinder {
 		System.out.print("Enter the radius: ");
 		int radius = scn.nextInt();
 		
-		// Height of Cylinder
+		// LENGTH = Height of Cylinder
 		System.out.print("Enter the length: ");
 		int length = scn.nextInt();
 		
 		// PI value declaration
 		double pi = Math.PI;
 		// Applying formula for volume of cylinder;
-		double volume = pi*radius*radius*length;
+		double volume = pi*Math.pow(radius, 2)*length;
 		System.out.println("The volume of cylinder with radius :"+radius+" and height : "+length+" : "+volume);
 	}
 }
