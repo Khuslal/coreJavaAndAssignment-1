@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class NestedIfElseTest {
 	public static void main(String[] args) {
-//		Voter Eligibility
+//===========================Voter Eligibility=========================================
 //		Scanner scn=new Scanner(System.in);
 //		System.out.print("Enter you nationality: ");
 //		String citizen = scn.next();
@@ -26,7 +26,7 @@ public class NestedIfElseTest {
 //				System.out.println("Only Nepali Citizen can vote");
 //			}
 		
-//		Grade Calculator based on marks of the students:
+//=====================Grade Calculator based on marks of the students:==========================
 		int marks = 49;
 		
 		if (marks>=90) {
