@@ -25,5 +25,6 @@ public class SumOfGivenNumber {
 			sum += i;
 		}
 		System.out.println("The sum of numbers from "+num1+" to "+num2+" : "+sum);
+		scn.close();
 	}
 }

@@ -49,5 +49,6 @@ public class DataTypes {
 		System.out.println("The value of "+ x + " - "+ y+": "+sub);
 		System.out.println("The value of "+ x + " * "+ y+": "+mul);
 		System.out.println("The value of "+ x + " / "+ y+": "+div);
+		scn.close();
 	}
 }

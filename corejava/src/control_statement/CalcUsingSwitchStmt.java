@@ -36,5 +36,6 @@ public class CalcUsingSwitchStmt {
 			default:
 				System.out.println("Invalid Operator Selected!");
 		}
+		scn.close();
 	}
 }

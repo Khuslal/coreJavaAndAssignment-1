@@ -17,6 +17,7 @@ public class LeapYearCalculator {
 			}
 		}else {
 			System.out.println("Invalid Command !");
-		}	
+		}
+		scn.close();
 	}
 }

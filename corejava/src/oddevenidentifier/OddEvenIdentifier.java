@@ -13,5 +13,6 @@ public class OddEvenIdentifier {
 		}else {
 			System.out.println(num+" = Odd Number");
 		}
+		scn.close();
 	}
 }

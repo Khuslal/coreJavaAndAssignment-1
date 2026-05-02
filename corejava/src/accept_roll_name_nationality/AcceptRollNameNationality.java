@@ -17,6 +17,6 @@ public class AcceptRollNameNationality {
 		
 		System.out.println("Name : "+name+"\nRoll no. : "+rollno+"\nNationality : "+nationality);
 		
-		
+		scn.close();
 	}
 }

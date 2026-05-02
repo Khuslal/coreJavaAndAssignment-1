@@ -18,5 +18,6 @@ public class FahrenheitToCelsius {
 		double celsius = scn.nextDouble();
 		double fahrenheit = (celsius*1.8)+32;
 		System.out.println(celsius+"°C = "+fahrenheit+"°F");
+		scn.close();
 	}
 }
