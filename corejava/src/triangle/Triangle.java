@@ -2,7 +2,7 @@ package triangle;
 
 public class Triangle {
 	double a, b, c;
-
+	//Constructor
 	Triangle() {
 		a = 3;
 		b = 4;
