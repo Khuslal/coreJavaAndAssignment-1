@@ -35,6 +35,18 @@ public class Matrix {
 		elements[i][j] = value;
 	}
 
+	// method to display output
+	public void display() {
+		// For each to retrieve the value
+		for (int row[] : elements) {
+			System.out.print("|");
+			for (int element : row) {
+				System.out.print(element + " ");
+			}
+			System.out.println("|");
+		}
+	}
+
 	// Main Method
 	public static void main(String[] args) {
 
@@ -58,20 +70,14 @@ public class Matrix {
 		for (int i = 0; i < rows; i++) {
 			System.out.println("Elements for row " + i + " : ");
 			for (int j = 0; j < columns; j++) {
-				// m1.elements[i][j] = scn.nextInt(); // setElement method is created for the replacement of this line
+				// m1.elements[i][j] = scn.nextInt(); // setElement method is created for the
+				// replacement of this line
 				m1.setElement(i, j, scn.nextInt());
 			}
 			System.out.println();
 		}
 
-		// For each to retrieve the value
-		for (int row[] : m1.elements) {
-			System.out.print("|");
-			for (int element : row) {
-				System.out.print(element + " ");
-			}
-			System.out.println("|");
-		}
+		m1.display();
 		scn.close();
 	}
 
