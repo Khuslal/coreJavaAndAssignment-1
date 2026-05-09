@@ -1,43 +1,64 @@
 package matrix;
 
-public class Matrix {
+import java.util.Scanner;
 
+public class Matrix {
 	int noOfRows;
 	int noOfColumns;
-	int elements[][];
-
-	public Matrix(int noOfRows, int noOfColumns) {
+	int elements [][];
+	
+	// Constructor
+	Matrix(int noOfRows, int noOfColumns){
 		this.noOfRows = noOfRows;
 		this.noOfColumns = noOfColumns;
-
-		// initialize 2D array
+		// Initialize 2D array
 		elements = new int[noOfRows][noOfColumns];
 	}
-
+	
+	// Method
+	public int elements() {
+		return noOfRows*noOfColumns;
+	}
+	
+	// Main Method
 	public static void main(String[] args) {
-		Matrix m = new Matrix(2, 4);
+		
+		// Scanner and Input
+		Scanner scn = new Scanner(System.in);
+		System.out.println("Enter rows : ");
+		int rows = scn.nextInt();
+		
+		System.out.println("Enter columns : ");
+		int columns = scn.nextInt();
+		
+		
+		// Creating Object
+		Matrix m1 = new Matrix(rows, columns);
 
-		// row 1
-		m.elements[0][0] = 1;
-		m.elements[0][1] = 2;
-		m.elements[0][2] = 3;
-		m.elements[0][3] = 6;
-
-		// row 2
-		m.elements[1][0] = 4;
-		m.elements[1][1] = 5;
-		m.elements[1][2] = 6;
-		m.elements[1][3] = 9;
-
-		System.out.println("Rows : " + m.noOfRows);
-		System.out.println("Columns : " + m.noOfColumns);
-
-		for (int i = 0; i < m.noOfRows; i++) {
-			for (int j = 0; j < m.noOfColumns; j++) {
-				System.out.print(m.elements[i][j] + " ");
+		// Output
+		System.out.println("Rows :"+m1.noOfRows);
+		System.out.println("Columns :"+m1.noOfColumns);
+		System.out.println("Elements :"+m1.elements());
+		
+		// Looping Statement
+		for(int i = 0; i < rows; i++) {
+			System.out.println("Elements for row "+i+" : ");
+			for(int j = 0; j < columns; j++) {
+				m1.elements[i][j]= scn.nextInt(); 
 			}
 			System.out.println();
 		}
+		
+		// For each to retrieve the value
+		for(int row [] : m1.elements) {
+			System.out.print("|");
+			for(int element : row) {
+				System.out.print(element+" ");
+			}
+			System.out.println("|");
+		}
+		scn.close();
 	}
+	
 
 }
