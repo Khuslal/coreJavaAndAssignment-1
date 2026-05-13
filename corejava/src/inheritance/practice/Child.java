@@ -1,6 +1,6 @@
 package inheritance.practice;
 
-public class Child extends Parent{
+public class Child extends Parent {
 	void printChild() {
 		System.out.println("This is child class.");
 	}
