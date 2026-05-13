@@ -11,7 +11,7 @@ public class Test {
 		p.progLang = "Java";
 		p.bonus = 50000;
 		p.project = "ERP";
-
+		
 		p.print();
 	}
 }
