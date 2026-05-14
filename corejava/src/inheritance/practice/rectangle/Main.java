@@ -15,6 +15,7 @@ public class Main {
 		Square sq = new Square(3);
 		sq.printPerimeter();
 		sq.printArea();
-
+		
+		
 	}
 }
