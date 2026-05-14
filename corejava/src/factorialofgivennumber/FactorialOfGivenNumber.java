@@ -7,6 +7,7 @@ public class FactorialOfGivenNumber {
 		Scanner scn = new Scanner(System.in);
 		System.out.println("Enter the number whose factorial you want to calculate : ");
 		int n = scn.nextInt();
+		scn.close();
 		int facto = 1;
 		
 		for(int i = 1; i<=n; i++) {

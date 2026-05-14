@@ -10,10 +10,10 @@ public class MethodsDocs {
 
 //		int sv = getSmallest(4, 6); // sv= smallest value
 //		System.out.println("Smallest Value : " + sv);
-		
-		System.out.println("The sum of 1-100 : "+ getSumof1to100());
+
+		System.out.println("The sum of 1-100 : " + getSumof1to100());
 	}
-	
+
 	// ========Method / Function===========
 	/*
 	 * # Use for code re-usability # Lines or block of code which is use to perform
@@ -28,6 +28,8 @@ public class MethodsDocs {
 		int a = scn.nextInt();
 		System.out.println("Enter the value of a : ");
 		int b = scn.nextInt();
+		scn.close();
+
 		int c = a + b;
 		System.out.println("Total = " + c);
 	}
@@ -49,10 +51,11 @@ public class MethodsDocs {
 			return y;
 		}
 	}
+
 // 4. return type with no arguments
 	static int getSumof1to100() {
 		int s = 0;
-		for(int i = 1; i<=100; i++) {
+		for (int i = 1; i <= 100; i++) {
 			s += i;
 		}
 		return s;

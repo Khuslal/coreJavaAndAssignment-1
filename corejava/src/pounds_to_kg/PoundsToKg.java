@@ -7,7 +7,7 @@ public class PoundsToKg {
 		Scanner scn = new Scanner(System.in);
 		System.out.println("Enter pound: ");
 		double pound = scn.nextDouble();
-		
+		scn.close();
 		double kg = 0.45359238095*pound; // pound to kg;
 		String result = String.format("%.4f", kg);
 		System.out.println(pound+" = "+result+" kg");

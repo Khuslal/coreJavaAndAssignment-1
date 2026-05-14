@@ -9,7 +9,8 @@ public class SwapTwoNumbers {
 		int a = scn.nextInt();
 		System.out.println("B = ");
 		int b = scn.nextInt();
-		
+		scn.close();
+
 //		================= a.Using Temp To Store Value======================
 //		int temp = a;
 //		a=b;
@@ -17,10 +18,10 @@ public class SwapTwoNumbers {
 //		System.out.println("A = "+a+" B = "+b);
 //		
 //		================= b. Without Using Temp To Store Value==============
-		
-		a = a+b; //a = 4+3; i.e = 7;
-		b = a-b; // b= 7-3; i.e = 4; //now b = a (original value of a);
-		a = a-b; //a= 7-4; i.e. = 3; // now a = b (original value of b);
-		System.out.println("The swapped value of A = "+a+" & B = "+b);
+
+		a = a + b; // a = 4+3; i.e = 7;
+		b = a - b; // b= 7-3; i.e = 4; //now b = a (original value of a);
+		a = a - b; // a= 7-4; i.e. = 3; // now a = b (original value of b);
+		System.out.println("The swapped value of A = " + a + " & B = " + b);
 	}
 }

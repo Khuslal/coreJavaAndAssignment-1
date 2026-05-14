@@ -1,6 +1,5 @@
 package control_statement;
 
-import java.util.Scanner;
 
 public class NestedIfElseTest {
 	public static void main(String[] args) {

@@ -12,7 +12,7 @@ public class StoreAndPrintNameOfCities {
 			System.out.println("Enter the name of city " + i + " : ");
 			cities[i] = scn.next(); //stores the data inside array
 		}
-
+		scn.close();
 		// For Each Loop to fetch the data
 		for (String x : cities) {
 			System.out.println(x);

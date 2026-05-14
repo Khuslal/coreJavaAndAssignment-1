@@ -15,6 +15,8 @@ public class DisplayLargestNumberFromThreeInput {
 		System.out.println("Enter the third no. : ");
 		int num3 = scn.nextInt();
 
+		scn.close();
+		
 		if ((num1 > num2) && (num1 > num3)) {
 			System.out.println(num1 + " is the largest number from " + num1 + " " + num2 + " and " + num3);
 		} else if ((num2 > num1) && (num2 > num3)) {

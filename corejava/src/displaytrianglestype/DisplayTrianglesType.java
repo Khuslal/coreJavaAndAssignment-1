@@ -11,7 +11,7 @@ public class DisplayTrianglesType {
 		int b = scn.nextInt();
 		System.out.println("Enter value of c : ");
 		int c = scn.nextInt();
-		
+		scn.close();
 		if(a == b && b == c) {
 			System.out.println("The triangle is Equilateral Triangle.");
 		}else if(a==b || b==c) {

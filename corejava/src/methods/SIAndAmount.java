@@ -11,12 +11,14 @@ public class SIAndAmount {
 		int t = scn.nextInt();
 		System.out.println("Enter Rate: ");
 		int r = scn.nextInt();
+		scn.close();
+
 		int si = si(p, t, r);
 		System.out.println("SI : " + si);
-		
+
 		// Amount = SI + Principal;
-		int amount = amount(p,si);
-		System.out.println("Total Amount : "+amount);
+		int amount = amount(p, si);
+		System.out.println("Total Amount : " + amount);
 	}
 
 	static int si(int p, int t, int r) {
@@ -25,7 +27,7 @@ public class SIAndAmount {
 	}
 
 	static int amount(int p, int si) {
-		int amount = p+si;
+		int amount = p + si;
 		return amount;
 	}
 }

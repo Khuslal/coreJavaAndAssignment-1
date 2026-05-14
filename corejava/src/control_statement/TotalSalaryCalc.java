@@ -21,6 +21,7 @@ public class TotalSalaryCalc {
 		Scanner scn = new Scanner(System.in);
 		System.out.println("Enter the Post of Employee: md, ceo, manager, helper ");
 		String post = scn.next();
+		scn.close();
 //		==================USING IF ELSE STATEMENT====================
 		
 //				

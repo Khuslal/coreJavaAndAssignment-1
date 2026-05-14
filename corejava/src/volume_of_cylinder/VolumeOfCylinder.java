@@ -19,5 +19,6 @@ public class VolumeOfCylinder {
 		// Applying formula for volume of cylinder;
 		double volume = pi*Math.pow(radius, 2)*length;
 		System.out.println("The volume of cylinder with radius :"+radius+" and height : "+length+" : "+volume);
+		scn.close();
 	}
 }

@@ -18,5 +18,6 @@ public class TableOfGivenNumber {
 			// print the table of given number upto the above iteration
 			System.out.println(num+" * "+i+" = "+table);
 		}
+		scn.close();
 	}
 }

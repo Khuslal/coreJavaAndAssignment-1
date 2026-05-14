@@ -13,5 +13,6 @@ public class IfElseTest {
 		}else {
 			System.out.println("The no. "+n+" is odd.");
 		}
+		scn.close();
 	}
 }

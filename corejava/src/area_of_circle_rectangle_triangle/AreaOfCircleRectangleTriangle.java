@@ -43,6 +43,6 @@ public class AreaOfCircleRectangleTriangle {
 		}else {
 			System.out.println("Invalid Command");
 		}
-		
+		scn.close();
 	}
 }

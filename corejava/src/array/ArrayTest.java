@@ -14,7 +14,7 @@ public class ArrayTest {
 			System.out.println("Enter age : ");
 			age[i] = scn.nextInt();
 		}
-		
+		scn.close();
 		// Read data from array
 		// System.out.println(age[0]);
 		// Read data using for each loop

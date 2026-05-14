@@ -29,7 +29,7 @@ public class Test {
 
 			prods[i] = p;
 		}
-
+		scn.close();
 		// read data from array
 		int totalPrice = 0;
 		int priceOfParticularCompany = 0;

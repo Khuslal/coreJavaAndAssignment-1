@@ -21,7 +21,7 @@ public class Area1 {
 		System.out.println("Enter Breadth");
 		int b = scn.nextInt();
 		Area1 a1 = new Area1 (l, b);
-		
+		scn.close();
 		System.out.println("Area : "+a1.returnArea());
 	}
 }

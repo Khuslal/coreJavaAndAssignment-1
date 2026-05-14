@@ -4,13 +4,14 @@ import java.util.Scanner;
 
 public class InputNum1To7AndTranslateDayOfWeek {
 	public static void main(String[] args) {
-		String days [] = {"Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"};
-		
+		String days[] = { "Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday" };
+
 		Scanner scn = new Scanner(System.in);
 		System.out.println("Enter number to display day : ");
 		int day = scn.nextInt();
-		
-		switch(day) {
+		scn.close();
+
+		switch (day) {
 		case 1:
 			String day1 = days[0];
 			System.out.println(day1);
@@ -39,7 +40,7 @@ public class InputNum1To7AndTranslateDayOfWeek {
 			String day7 = days[6];
 			System.out.println(day7);
 			break;
-		default :
+		default:
 			System.out.println("Invalid Command !");
 		}
 	}
