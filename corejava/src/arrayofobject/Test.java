@@ -8,7 +8,7 @@ public class Test {
 		// store and print data of 10 products
 
 		// create array
-		Product prods[] = new Product[2];
+		Product prods[] = new Product[10];
 		
 		Scanner scn = new Scanner(System.in);
 		// wite data in array
