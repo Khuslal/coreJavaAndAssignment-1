@@ -6,7 +6,7 @@ class CopyConstructor {
 	int age;
 	String faculty;
 
-	// Normal constructor
+	// Normal Parameterized constructor
 	CopyConstructor(String name, int age, String faculty) {
 		this.name = name;
 		this.age = age;
@@ -42,7 +42,7 @@ class CopyConstructor {
 		s2.display();
 		
 		//======Exception Case===========
-		/* This is not a copy constructor
+		/* Below is not a copy constructor :
 		 * s3 refers to same object as s1
 		 * CopyConstructor s3 = s1;
 		 */
