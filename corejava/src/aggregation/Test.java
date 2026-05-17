@@ -13,6 +13,7 @@ public class Test {
 		s.setCollege("NCC");
 		s.setBike(b);
 
+		// Binding and Output:
 		System.out.println("ID : " + s.getId());
 		System.out.println("Name : " + s.getName());
 		System.out.println("College : " + s.getCollege());

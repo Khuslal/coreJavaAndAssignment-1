@@ -1,9 +1,11 @@
 package aggregation;
 
 public class Student {
+	// private variables for student class
 	private int id;
 	private String name;
 	private String college;
+	
 	// Has-A relationship
 	private Bike bike;
 

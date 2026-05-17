@@ -1,6 +1,7 @@
 package aggregation;
 
 public class Bike {
+	// private variables for bike class
 	private String color;
 	private int price;
 	private String company;
