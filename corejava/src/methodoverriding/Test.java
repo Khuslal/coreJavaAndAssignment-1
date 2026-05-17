@@ -16,6 +16,16 @@ public class Test {
 		CentralBank bank1 = new NBMBank();
 		bank1.getBankName();
 		bank1.getInterestRate();
+		
+		CentralBank bank2 = new NabilBank();
+//		bank2.getBankName();
+//		bank2.getInterestRate();
+		
+		// Using Late / Dynamic Binding Method:
+		Test demo = new Test();
+		demo.printBankInfo(bank);
+		demo.printBankInfo(bank2);
+		
 
 	}
 
